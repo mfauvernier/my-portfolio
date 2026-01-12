@@ -24,7 +24,7 @@ export default function ProjectCard({
           </li>
         ))}
       </ul>
-      <div className="flex gap-4">
+      <div className="mt-6 flex gap-4">
         {github && (
           <a href="" className="link">
             GitHub

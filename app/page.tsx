@@ -6,12 +6,15 @@ import Skills from "@/components/Skills";
 
 export default function Home() {
   return (
-    <main style={{ padding: 24 }}>
-      <Hero />
-      <Projects />
-      <Skills />
-      <About />
-      <Contact />
-    </main>
+    <div className="relative">
+      <div className="pointer-events-none absolute inset-0 -z-10 bg-[radial-gradient(600px_circle_at_20%_10%,rgba(56,189,248,0.20),transparent_60%),radial-gradient(700px_circle_at_80%_20%,rgba(99,102,241,0.18),transparent_55%)]" />
+      <main>
+        <Hero />
+        <Projects />
+        <Skills />
+        <About />
+        <Contact />
+      </main>
+    </div>
   );
 }
